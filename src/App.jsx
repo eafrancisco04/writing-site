@@ -1,3 +1,4 @@
+import Header from './components/Header';
 import Pages from './pages/Pages';
 import Footer from './components/Footer';
 import Category from './components/Category';
@@ -10,9 +11,7 @@ function App() {
         <div className="App">
             <Router>
                 <Nav>
-                    <Logo to="/">
-                        <SiCodechef size={100}/> Code Chef
-                    </Logo>
+                    <Header />
                 </Nav>
 
                 <Category />
