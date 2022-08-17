@@ -1,7 +1,7 @@
 import Header from './components/Header';
 import Pages from './pages/Pages';
 import Footer from './components/Footer';
-
+import logo from './img/ALPAS.svg';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -11,7 +11,7 @@ function App() {
             <Router>
                 <Nav>
                     <Logo to="/">
-                        LOGO
+                        <img src={logo}/>
                     </Logo>
                     <Header />
                 </Nav>
