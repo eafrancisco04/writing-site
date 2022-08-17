@@ -11,7 +11,7 @@ function App() {
             <Router>
                 <Nav>
                     <Logo to="/">
-                        <img src={logo}/>
+                        <img src={logo} height="100"/>
                     </Logo>
                     <Header />
                 </Nav>
@@ -27,7 +27,7 @@ function App() {
 
 const Logo = styled(Link)`
     margin: auto;
-    padding: 2rem 0;
+    padding: 0;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
