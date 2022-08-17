@@ -3,8 +3,14 @@
     font-family: 'Poppins', Arial, sans-serif;
 }
 body {
-    background-color: #cedee3;
+    background-color: #f1f1f1;
     margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 h1 {

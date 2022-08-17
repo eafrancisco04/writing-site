@@ -6,6 +6,7 @@ import styled from 'styled-components';
 function Footer() {
     return(
         <Bottom>
+        <footer>
             <div>
                 <h3>Follow us on:</h3>
                 <BsInstagram size={40} />{' '}
@@ -15,6 +16,7 @@ function Footer() {
                 <FaFacebookF size={40} />{' '}
             </div>
             <small>2022 Ea Francisco © All Rights Reserved.</small>
+        </footer>
         </Bottom>
     )
 }
@@ -27,7 +29,7 @@ const Bottom = styled.div`
     text-align: center;
 
     h3 {
-        color: #D0B49F;
+        color: #401C4F;
     }
 `
 export default Footer;

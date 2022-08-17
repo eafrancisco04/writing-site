@@ -8,7 +8,7 @@ import { SiCodechef } from 'react-icons/si';
 
 function App() {
     return(
-        <div className="App">
+        <main className="App">
             <Router>
                 <Nav>
                     <Header />
@@ -19,7 +19,7 @@ function App() {
 
                 <Footer />
             </Router>
-        </div>
+        </main>
 
     )
 }

@@ -3,10 +3,7 @@
 function Home() {
     return(
         <div>
-            <div className="cover">
-                <p>Time for </p><h1>Cooking!</h1>
-            </div>
-            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eaque corporis consequuntur cumque. Provident possimus nesciunt repudiandae recusandae debitis odio!</p>
             
         </div>
 
