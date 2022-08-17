@@ -9,11 +9,11 @@ function Footer() {
         <footer>
             <div>
                 <h3>Follow us on:</h3>
-                <BsInstagram size={40} />{' '}
-                <FaPinterestP size={40} />{' '}
-                <BsYoutube size={40} />{' '}
-                <FiTwitter size={40} />{' '}
-                <FaFacebookF size={40} />{' '}
+                <BsInstagram size={40} color="lightcyan"/>{' '}
+                <FaPinterestP size={40} color="lightcyan"/>{' '}
+                <BsYoutube size={40} color="lightcyan"/>{' '}
+                <FiTwitter size={40} color="lightcyan"/>{' '}
+                <FaFacebookF size={40} color="lightcyan"/>{' '}
             </div>
             <small>2022 Ea Francisco © All Rights Reserved.</small>
         </footer>
@@ -23,13 +23,13 @@ function Footer() {
 
 const Bottom = styled.div`
     padding: 1rem 5rem;
-    background-color: #9A76A5;
+    background-color: #004b5e;
     color: #F4EBE8;
     align-content: center;
     text-align: center;
 
     h3 {
-        color: #401C4F;
+        color: #FEC437;
     }
 `
 export default Footer;

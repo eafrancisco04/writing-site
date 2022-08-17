@@ -33,8 +33,8 @@ const List =  styled.div`
     justify-content: center;
     margin: 0;
     background-image: url("../img/bg-food.jpg");
-    border-top: solid 3px #3C3431;
-    border-bottom: solid 3px #3C3431;
+    border-top: solid 3px #401C4F;
+    border-bottom: solid 3px #401C4F;
 `
 const NLink = styled(NavLink)`
     text-decoration: none;
@@ -42,10 +42,10 @@ const NLink = styled(NavLink)`
     align-items: center;
     justify-content: space-around;
     padding: 0 2rem;
-    color: #3C3431;
+    color: #004b5e;
 
     :hover {
-        color: #705446;
+        color: #9A76A5;
     }
 
 `
