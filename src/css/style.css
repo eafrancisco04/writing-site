@@ -3,7 +3,7 @@
     font-family: 'Poppins', Arial, sans-serif;
 }
 body {
-    background-color: #F4EBD0;
+    background-color: #cedee3;
     margin: 0;
 }
 
@@ -16,7 +16,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../img/bg-food.jpg");
+    /* background-image: url("../img/bg-food.jpg"); */
     height: 60vh;
     width: 100%;
     background-position: center;

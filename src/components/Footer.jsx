@@ -21,7 +21,7 @@ function Footer() {
 
 const Bottom = styled.div`
     padding: 1rem 5rem;
-    background-color: #4A3726;
+    background-color: #9A76A5;
     color: #F4EBE8;
     align-content: center;
     text-align: center;
